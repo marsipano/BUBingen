@@ -1,2 +1,3 @@
 # BUBingen
-Bildungsurlaub HTML5 JavaScript jQuery Bingen
+Bildungsurlaub Bingen
+HTML5 JavaScript jQuery
