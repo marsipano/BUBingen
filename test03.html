@@ -8,9 +8,25 @@
 </head>
 
 <body>
-    <div id="ausgabe">jQuery</div>
+    <h1>Erste Überschrift</h1>
+    <div id="ausgabe">vorher</div>
+    <h2>und noch eine</h2>
     <script>
-        console.log($("#ausgabe"));
+        $(document).ready(function() {
+            console.log($("#ausgabe").html());
+            $("#ausgabe").html("<h2>durch jQuery dynamisch erzeugt</h2>");
+
+            function setallred() {
+                $("h2").css("color", "red");
+            }
+
+            function setallblack() {
+                $("h2").css("color", "black");
+            }
+
+            $("h2").mouseover(setallred);
+            $("h2").mouseout(setallblack);
+        });
     </script>
 </body>
 
