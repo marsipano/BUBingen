@@ -1,0 +1,10 @@
+{
+    "personen": [
+        { "name": "adam", "alter": 11 },
+        { "name": "bruno", "alter": 22 },
+        { "name": "clemens", "alter": 33 },
+        { "name": "dirk", "alter": 44 },
+        { "name": "ernst", "alter": 55 },
+        { "name": "fritz", "alter": 66 }
+    ]
+}
