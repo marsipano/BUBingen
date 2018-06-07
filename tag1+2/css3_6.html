@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 Blockelemente positionieren</title> 
+  <!-- HTML5 und CSS3 Seite 69 -->
+  
+  <style>
+div {
+padding:5px; color:white;
+
+}
+#A1 {
+position:absolute;
+width:200px; height:230px;
+top:30px; left:30px;
+background-color:gray;
+}
+#A2 {
+position:fixed;
+width:100px; height:100px;
+top:50px; left:20px;
+background-color:blue;
+}
+#B1 {
+position:absolute;
+width:200px; height:230px;
+top:30px; left:260px;
+background-color:gray;
+}
+#B2 {
+position:static;
+width:100px; height:100px;
+top:50px; left:20px;
+background-color:red;
+}
+#C1 {
+position:absolute;
+width:200px; height:1230px;
+top:290px; left:30px;
+background-color:gray;
+}
+#C2 {
+position:absolute;
+width:100px; height:100px;
+top:50px; left:20px;
+background-color:yellow;
+}
+#D1 {
+position:absolute;
+width:200px; height:230px;
+top:290px; left:260px;
+background-color:gray;
+}
+#D2 {
+position:relative;
+width:100px; height:100px;
+top:50px; left:20px;
+background-color:green;
+}
+</style>
+</head>
+<body>
+
+<div id="A1">A1<div id="A2">A2  fixed</div>
+</div>
+
+<div id="B1">B1<div id="B2">B2 static</div>
+</div>
+<div id="C1">C1<div id="C2">C2 absolute</div>
+</div>
+<div id="D1">D1<div id="D2">D2 relative</
+div></div>
+</body>
+</html>

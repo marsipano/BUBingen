@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS3 Blockelemente umfließen  Float</title> 
+  <!-- HTML5 und CSS3 Seite 71 -->
+  
+  <style>
+
+#wrapper{
+box-sizing:border-box;
+position:absolute;
+top:0%;left:0%;
+width:100%;height:100%;
+margin:0px;padding:0px;
+
+
+}
+div {
+color:white;
+font-size:2em;
+font-family:Arial;
+}
+main {
+height:90%;
+background-color:blue;
+}
+nav {
+float:left;
+width:20%; height:90%;
+background-color:red;
+}
+aside {
+float:right;
+width:20%; height:90%;
+background-color:yellow;
+}
+footer {
+clear:both;
+background-color:green;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+<nav>Navigation</nav>
+<aside>Nebenbereich</aside>
+<main>Hauptbereich</main>
+<footer>Fußzeile</footer>
+</div>
+</body>
+</html>

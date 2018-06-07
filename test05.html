@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Ajax-Requests</title>
+    <link rel="stylesheet" href="https://unpkg.com/picnic">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+</head>
+
+<body>
+    <h1>REST Api Client</h1>
+    <script id="userTemplate" type="text/html">
+        <article class="card">
+            <header>
+                <h2>${last_name},&nbsp;${first_name}</h2>
+            </header>
+            <img src="${avatar}">
+            <footer>
+                <button>Edit</button>
+            </footer>
+        </article>
+    </script>
+    <div id="ausgabe"></div>
+    <script src="myjs03.js"></script>
+</body>
+
+</html>

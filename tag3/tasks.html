@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Task list</title>
+  <link rel="stylesheet" href="styles/tasks.css">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+  
+</head>
+<body>
+<header>
+  <h1>Task list</h1>
+</header>
+<main>
+  <section>
+    <form>
+      <div>
+        <label>Task</label>
+        <input type="text" required="required" name="task" class="large" placeholder="Breakfast at Tiffanys">
+      </div>
+	  <div>
+	   <label>Kurs</label>
+        <input type="text" required="required" name="kurs"  placeholder="Kurs">
+      </div>
+      <div>
+        <label>Required by</label>
+        <input type="date" required="required" name="requiredBy">
+      </div>
+      <div>
+        <label>Category</label>
+        <select name="category"id = "categorie" >
+          <option value="Personal">Personal</option>
+          <option value="Work">Work</option>
+        </select>
+      </div>
+	  <p>Unterkunft:<br>
+<input type="radio" name="uk" value="EZ BR" checked> EZ Frühstück<br>
+<input type="radio" name="uk" value="DZ BR"> DZ Frühstück<br>
+<input type="radio" name="uk" value="EZ HP"> EZ Halbpension<br>
+<input type="radio" name="uk" value="DZ HP"> DZ Halbpension<br>
+<input type="radio" name="uk" value="EZ VP"> EZ Vollpension<br>
+<input type="radio" name="uk" value="DZ VP"> DZ Vollpension
+</p>
+      <div class="buttons">
+        <a href="#">Save task</a> <a href="#">Clear task</a>
+      </div>
+    </form>
+  </section>
+  <h2>Greetings</h2>
+<div class="container">
+  <div class="inner">Hello</div>
+  <div class="inner">Goodbye</div>
+</div>
+  
+  
+  
+  
+  <section>
+    <table id="tblTasks">
+      <colgroup>
+        <col class="col-1">
+        <col class="col-2">
+        <col class="col-3">
+      </colgroup>
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Due</th>
+        <th>Category</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Return library books</td>
+        <td>
+          <time datetime="2015-10-14">2015-10-14</time>
+        </td>
+        <td>Personal</td>
+      </tr>
+      <tr class="even">
+        <td>Perform project demo to stakeholders</td>
+        <td>
+          <time datetime="2018-06-06">6.6.2018</time>
+        </td>
+        <td>Work</td>
+      </tr>
+      <tr>
+        <td>Meet friends for dinner</td>
+        <td>
+          <time datetime="2015-10-14">2015-10-14</time>
+        </td>
+        <td>Personal</td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="buttons">
+      <a href="#">Add task</a>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>You have 3 tasks</p>
+</footer>
+</body>
+</html>

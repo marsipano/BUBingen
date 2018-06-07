@@ -1,0 +1,35 @@
+h1 {font-size:1.5em;}
+h2 {font-size:1.2em;}
+p {font-size:0.9em;}
+a {font-size:1.1em;}
+a.waag {width:60px;
+display:inline-block;}
+a.senk {width:80px;
+display:block;}
+header {height:60px;}
+@media screen and (min-width:800px){
+#container{
+display:flex;
+flex-direction:row;}
+nav.waag{display:none}
+nav.senk{flex:0;}
+}
+@media screen and (min-width:500px)
+and (max-width:799px){
+#container{
+display:flex;
+flex-direction:row;}
+nav.waag{top:60px;
+width:100%;
+height:40px;}
+nav.senk{display:none;}
+}
+@media screen and (max-width:499px){
+#container{
+display:flex;
+flex-direction:column;}
+nav.waag{top:60px;
+width:100%;
+height:40px;}
+nav.senk{display:none;}
+}

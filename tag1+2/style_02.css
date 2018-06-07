@@ -1,0 +1,19 @@
+body {
+  background-color : #FFFFFF;
+  margin: 20 px;
+  }
+  p {
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  }
+  /* Hauptüberschriften in Rot */
+  h1 {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #FF0000;
+  
+  }
+  a {
+  text-decoration: none;
+  }

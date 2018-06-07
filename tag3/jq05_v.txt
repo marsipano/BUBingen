@@ -1,0 +1,45 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>jQuery Basis</title>
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+	
+	<script>
+   $(document).ready(function(){
+   console.log($("#thema").html());
+   $("#thema").html("<h3>jQuery Einbindung</h3>");
+ });
+  </script>
+  <style>
+  .wichtig {
+  font-size : 1.3em;
+  color: blue;
+  font-weight: bolder;
+  
+  }
+  
+  </style>
+  
+  
+  
+</head>
+<body>
+  <div id="thema"><h3>jQuery Einbindung</h3></div>
+ <ul>
+ 
+<li> <a href="http://www.vhs-bingen.de" target="_blank">caniuse.com</a></li>
+<li><a href="http://gs.statcounter.com">gs.statcounter.com</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="http://www.bingen.de" target="_blank">www.bingen.de</a></li>
+ 
+ </ul>
+ 
+ 
+
+ 
+ 
+ 
+  
+
+
+
+</body></html>

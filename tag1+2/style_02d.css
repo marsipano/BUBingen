@@ -1,0 +1,22 @@
+/* Stylesheet für Druck */
+body {
+  background-color : #FFFFFF;
+  margin: 20 px;
+  }
+  p {
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  }
+  /* Hauptüberschriften in Schwarz */
+  h1 {
+  font-family: Verdana;
+  font-size: 16px;
+  color: blue;
+  border-style: solid;
+  }
+  a {
+  text-decoration: none;
+  /* Da besuchte Links standardmäßig blau angezeigt werden, wird hier explizit auf schwarz umgestellt. */
+  color: #000000;
+  }
