@@ -1,0 +1,10 @@
+input {
+    padding: 3px 1px 3px 1px;
+    margin: 10px;
+}
+
+.inlinesparkline {
+    width: 400px;
+    /* barWidth: 400px; */
+    height: 40%;
+}

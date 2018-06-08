@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Kollegen</title>
+    <link rel="stylesheet" href="https://unpkg.com/picnic">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+</head>
+
+<body>
+    <h1>Kollegen DB</h1>
+
+    <article class="card">
+        <header>
+            <h2>Auswahl</h2>
+        </header>
+        <footer>
+            <select id="auswahl"></select>
+        </footer>
+    </article>
+
+    <article class="card" id="details">
+        <header>
+            <fieldset>
+                <legend id="id"></legend>
+                <label>Nachname<input type="text" placeholder="Nachname" id="nachname"></label>
+                <label>Vorname<input type="text" placeholder="Vorname" id="vorname"></label>
+            </fieldset>
+        </header>
+        <footer>
+            <button id="btnBemerkungen">Bemerkungen</button>
+        </footer>
+    </article>
+
+    <article class="card hidden" id="zusatz">
+        <header>
+            <h4>Bemerkungen</h4>
+        </header>
+        <footer>
+            <textarea id="bemerkungen"></textarea>
+        </footer>
+    </article>
+
+    <script src="kollegen.js"></script>
+</body>
+
+</html>

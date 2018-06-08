@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Webprojekt jQuery - Kurs</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="jquery/jquery-ui/jquery-ui.js"></script>    
+	<script type="text/javascript" src = "jquery/storage.js")></script>
+	<script type="text/javascript" src = "jquery/ajaxtext.js")></script>
+	<script type="text/javascript" src = "jquery/ajaxjson.js")></script>
+    <link rel="stylesheet" href="jquery/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="css/basis.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <main>    
+                <form id="myForm">
+                    <br>
+                    <label>Kunde </label><select id="nameselect">
+                          <option value=""></option>
+                          <option value="franz">Franz</option>
+                          <option value="ralf">Ralf</option>
+                          <option value="schorsch">Schorsch</option>
+                        </select>
+                    <p><input type="button" value="Profil" id ="profil"></p>
+                    <br>
+                </form>
+            </main>
+            <aside class="info">
+                <h2>Kunde</h2>
+                <div id="ausgabeinfo" class="ausgabebox"></div>
+            </aside>
+            <aside class="liste">
+                <h2>Profil</h2>
+                <div id="ausgabeliste" class="ausgabebox"></div>
+            </aside>
+        </div>
+    </div>
+        
+            <!-- <div class="copyright">© 2018 Hessischer Rundfunk, Ralf Faude</div> -->
+</body>
+</html>

@@ -1,7 +1,7 @@
 CACHE MANIFEST
-./styles.css
+./todos.css
 ./indexeddb.shim.min.js
-./application.js
+./todos.js
 
 NETWORK:
 *
